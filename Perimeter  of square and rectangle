@@ -1,0 +1,16 @@
+//Find out perimeter of square and rectangle .
+
+#include<stdio.h>
+int main()
+{
+int l,b,sq,rect;
+printf("Enter the length and width :");
+scanf("%d %d",&l,&b);
+sq=4*l;
+rect=2*(l+b);
+printf("Perimeter of square is :%d \n",sq);
+
+printf("Perimeter of rectangle is :%d \n",rect);
+
+return 0;
+}
