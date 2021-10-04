@@ -1,0 +1,12 @@
+//convert Fahrenheit temperature in degree celcius
+
+#include<stdio.h>
+int main()
+{
+ float f,cel;
+ printf("Enter the fahrenheit temp:");
+ scanf("%f",&f);
+ cel=((f-32)*5)/9;
+ printf("Temperature in degree celcius:%f",cel);
+ return 0;
+}
