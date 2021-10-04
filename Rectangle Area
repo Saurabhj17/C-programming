@@ -1,0 +1,12 @@
+//Calculate area of rectangle
+
+#include<stdio.h>
+int main()
+{
+ int a,b,c;
+ printf("Enter the length and width of rectangle:");
+ scanf("%d %d",&a,&b);
+ c=a*b;
+ printf("Area of Rectangle is %d. ",c);
+ return 0;
+}
