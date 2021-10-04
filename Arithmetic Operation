@@ -1,0 +1,20 @@
+// Arithmetic operation on two numbers.
+
+#include<stdio.h>
+int main()
+{
+float a,b,add,sub,mul,div;
+int module;
+printf("Enter the two value:\n"); 
+scanf("%f %f",&a,&b);
+add=a+b;
+sub=a-b;
+mul=a*b;
+div=a/b;
+printf("/n Result of addition is:%f \n",add);
+printf("Result of substraction is:%f \n",sub);
+printf("Result of multiplication is:%f \n",mul);
+printf("Result of division is:%f \n",div);
+return 0;
+}
+
