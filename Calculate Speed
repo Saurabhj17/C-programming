@@ -1,0 +1,12 @@
+//Calculate speed for time and distance.
+
+#include<stdio.h>
+int main()
+{
+float distance,time,speed;
+printf("Enter value of time and distance :");
+scanf("%f %f",&distance,&time);
+speed=(distance/time);
+printf("Speed =%f",speed);
+return 0;
+}
