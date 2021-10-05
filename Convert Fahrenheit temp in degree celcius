@@ -10,3 +10,4 @@ int main()
  printf("Temperature in degree celcius:%f",cel);
  return 0;
 }
+
