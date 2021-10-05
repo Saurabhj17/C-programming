@@ -8,5 +8,5 @@ int main()
  scanf("%f %f %f",&P,&R,&T);
  SI=(P*R*T)/100;
  printf("\n Simple Interest is %f",SI);
- return 0;
+ return 0; 
 }
