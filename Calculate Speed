@@ -10,3 +10,4 @@ speed=(distance/time);
 printf("Speed =%f",speed);
 return 0;
 }
+
