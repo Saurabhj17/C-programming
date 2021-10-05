@@ -16,3 +16,4 @@ printf("%d is odd number.",num);
 }
 return 0;
 }
+
