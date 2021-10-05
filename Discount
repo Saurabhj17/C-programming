@@ -49,4 +49,3 @@ printf("After discount costprice is:%f\n",discount);
 }
 return 0;
 }
-
