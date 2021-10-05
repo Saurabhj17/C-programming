@@ -10,3 +10,4 @@ int main()
  printf("Area of Rectangle is %d. ",c);
  return 0;
 }
+
