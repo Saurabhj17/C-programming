@@ -10,3 +10,4 @@ big=(a>b && a>c ? a : b>a && b>c ?b : c);
 printf("Greatest number is:%d",big);
 return 0;
 }
+
