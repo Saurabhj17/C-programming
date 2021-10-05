@@ -17,4 +17,3 @@ printf("Result of multiplication is:%f \n",mul);
 printf("Result of division is:%f \n",div);
 return 0;
 }
-
