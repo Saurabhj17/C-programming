@@ -1,0 +1,41 @@
+/*write program using following menus-
+Choice-1:Accept number and find out square and cube.
+Choice-2:Check wheather the given year is LEAF or not.*/
+
+#include<stdio.h>
+int main()
+{
+int num,sq,cube,choice,year;
+printf("Enter your choice for square and cube-1 and leaf year-2:\n");
+scanf("%d",&choice);
+
+switch(choice)
+{
+case 1:
+        printf("Enter the number:");
+        scanf("%d",&num);
+        sq=num*num;
+        cube=num*num*num;
+        printf("Square of number is:%d \n",sq);
+        printf("Cube of number is:%d \n",cube);
+        break;
+ 
+case 2:
+        printf("Enter the year:");
+        scanf("%d",&year);
+        
+        if(year%4==0 || year%100==0 || year%400==0)
+        printf("%d is a leaf year.\n",year);
+        
+        else
+        printf("%d is not a leaf year.\n",year);
+        
+        break;
+ 
+default:
+       printf("Sorry....");
+
+}
+return 0;
+}
+       
