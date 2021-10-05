@@ -1,0 +1,36 @@
+/*Using switch case for arithmetic operation on two numbers, if user enters an operators as choice, the appropriate 
+operation should perform.
+If user enters wrong choice appropriate meesege should get display.*/
+
+#include<stdio.h>
+int main()
+{
+float a,b,add,sub,mul,div;
+char operator;
+printf("Enter operator:");
+scanf("%c",&operator);
+
+printf("Enter the two number:");
+scanf("%f %f",&a,&b);
+
+switch(operator)
+{
+case'+':add=a+b;
+        printf("Addition of a and b:%f",add);
+        break;
+case'-':sub=a-b;
+        printf("Substraction of a and b:%f",sub);
+        break;
+case'*':mul:a*b;
+        printf("Multiplication of a and b:%f",mul);
+        break;
+case'/':div=a/b;
+        printf("Division of a and b:%f",div);
+        break;
+default:
+        printf("Wrong choice,please select correct choice.");
+        
+}
+
+return 0;
+}
